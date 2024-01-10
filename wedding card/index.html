@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="left-box">
+        <h1>Wedding Invitation</h1>
+        <p>You are cordially invited to celebrate the union of</p>
+        <h2>Your Name & Partner's Name</h2>
+        <p>
+          Join us for a day of love, laughter, and joy as we exchange vows and
+          begin our journey together.
+        </p>
+        <p>Date: <strong>MM/DD/YYYY</strong></p>
+        <p>Time: <strong>HH:MM AM/PM</strong></p>
+        <p>Venue: <strong>Wedding Venue Name</strong></p>
+        <p>Dress Code: <strong>Formal</strong></p>
+
+        <br />
+        <input class="input-button" id="inputText" />
+      </div>
+
+      <div class="right-box">
+        <p id="displayButton" class="Arrival-button show-button"></p>
+        <br />
+        <br />
+        <button class="number-button"><span id="number">0</span></button>
+        <button class="colour-button change-color-button"></button>
+        <br />
+        <button class="Add-button" onclick="submitForm()">
+          click here to Invitate
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
